@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+.holder{
+	display : flex;
+	flex : 0 1;
+	justify-content  : center;
+	flex-wrap : wrap;
+}
+.child{
+	height : 100px;
+	width : 100px;
+}
+.c-1{
+	background : green;
+}
+.c-2{
+	background : red;
+}
+.c-3{
+	background : blue;
+}
